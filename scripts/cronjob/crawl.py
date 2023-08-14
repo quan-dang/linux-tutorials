@@ -28,5 +28,5 @@ if __name__ == '__main__':
     except Exception as e:
         logger.error(f'Error while reading IRIS file with error {e}')
     
-    # Remove the file
+    # Remove the file with heart
     os.remove(filename)
